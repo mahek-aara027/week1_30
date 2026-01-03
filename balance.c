@@ -31,10 +31,10 @@ int main() {
         /* Closing brackets */
         else if (exp[i] == ')' || exp[i] == '}' || exp[i] == ']') {
 
-           /*if (top == -1) {
+           if (top == -1) {
                 printf("Not Balanced");
                 return 0;
-            }*/
+            }
 
             char ch = pop();
 
@@ -54,3 +54,4 @@ int main() {
 
     return 0;
 }
+
